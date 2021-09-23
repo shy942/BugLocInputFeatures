@@ -1,4 +1,6 @@
 How to change the value of alpha (_alpha) parameter?
 Step 1: Go to scripts/launcher_Tool.py
 Step 2: Look for method names "run" located approx. at line 229
-Step 3: Go to line approx 244, params = self.get_paramsDist (, , , 0.2, ,), here 0.2 is the value of alpha
+Step 3: Go to line approx. 244, params = self.get_paramsDist (, , , 0.2, ,), here 0.2 is the value of alpha
+Step 4: Also go to line approx. 274, params = self.get_params (, , , 0.2, , ), here 0.2 is the value of alpha
+Step 5: Finally go to line approx. 261, params = self.get_params(, , , 0.2, ,), here 0.2 is the value of alpha
